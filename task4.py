@@ -8,3 +8,8 @@ position in the tuple
 """
 
 people=("John","Tyler","Dash","Kieran","Jayson","Tomoki","Minji","Dawson","Hewitt","Josh","Anson","Cole")
+num = int(input("Enter an integer < 10: "))
+if num < 10:
+    print(f"{people[num]}")
+if num >= 10:
+    print("That number is not >= 10")
